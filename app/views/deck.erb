@@ -1,0 +1,8 @@
+<div>
+<h1> Deck Selection </h2>
+  <h2> Wanna play a game? </h2>
+  <h3> Select your desired option </h3>
+  <% Deck.all.each do |deck| %>
+  <a href="/round"><%= deck.d_title %></a>
+  <% end %>
+</div>
